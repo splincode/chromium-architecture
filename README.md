@@ -1,3 +1,7 @@
+# Chromium архитектура
+
+Chromium — графический веб-браузер с открытым исходным кодом, основанный на движке Blink и разрабатываемый корпорацией Google совместно с сообществом The Chromium Authors, и некоторыми другими корпорациями. На основе Chromium создан браузер Google Chrome, на сегодняшний день его доля превысила 60%. Поэтому хотелось бы поговорить о нем чуть больше, чем об остальных, хотя про Firefox, Edge, Safari и их организацию было бы тоже здорово посмотреть, но не сегодня. Отмечу, что не стоит под Chromium подразумевать Google Chrome, так как одно определение дополняет другое. Google Chrome = Chromium + Google Update + закрытые плагины и кодеки + отправка отчетов и статистики.
+
 <h1 id="#Browser_Process">Browser process</h1>
 
 ![image](http://szeged.github.io/sprocket/img/arch/Browser_Process.png)
