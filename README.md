@@ -3,11 +3,13 @@
 ![image](http://szeged.github.io/sprocket/img/arch/Browser_Process.png)
 
 - **Startup**
+
   - Это точка входа всего приложения (Main);
   - Main запускает ContentMain и BrowserMain;
   - BrowserMain запускает MainMessageLoop;
 
 - **Threads**
+
   - Сразу после запуска запускаются необходимые потоки
   - **I/O thread**
     - обеспечивает коммуникацию с задачами рендеринга
